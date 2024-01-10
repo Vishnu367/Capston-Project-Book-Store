@@ -1,0 +1,18 @@
+.categorie-conatiner {
+    /* background-color: var(--gray-ultra-light) */
+    background-image: url('../../images/ohara.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.categorie-card {
+    cursor: pointer;
+}
+.categorie-card:active {
+    box-shadow: 5px 5px -2px var(--gray-ultra-light);
+}
+.categorie-card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}

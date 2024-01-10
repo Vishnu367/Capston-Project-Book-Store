@@ -1,0 +1,19 @@
+.product-container {
+    margin-top: 120px;
+}
+.product-data-container{
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    /* justify-content: ; */
+    /* align-items: center; */
+}
+.product-thumbnail {
+    justify-self: center;
+    width: 350px;
+    /* height: 410px; */
+    aspect-ratio: 0.72;
+    border: 5px solid var(--soft-primary);
+}
+.product-details {
+    width: 82%;
+}

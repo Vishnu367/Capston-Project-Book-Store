@@ -1,0 +1,37 @@
+
+:root {
+    --gray-light: #4d4d4d;
+    --gray-ultra-light: #CCCCCC;
+    --primary: #9a2837;
+    --soft-primary: #9a283730;
+    --hard-primary: #2C742F;
+    --dark-gray: #1A1A1A;
+}
+
+.this-btn {
+    padding: 14px 48px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    line-height: 1.2;
+    font-size: 1.2rem;
+    background-color: white;
+    box-shadow: 1px 1px 2px var(--gray-light);
+}
+.this-btn:active {
+    box-shadow: 1px 1px -2px var(--gray-light);
+}
+.this-btn-primary {
+    background-color: var(--primary);
+    color: white;
+    border: 1px solid var(--primary);
+}
+.this-nav-link {
+    color: black;
+    font-size: 1.2rem;
+    padding: 4px;
+    text-decoration: none;
+}
+.this-nav-link:hover {
+    cursor: pointer;
+}

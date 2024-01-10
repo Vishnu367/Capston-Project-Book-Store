@@ -1,0 +1,14 @@
+.all-books-container {
+    width: 1200px !important;
+    margin: 0 auto; 
+    margin-top: 100px;
+}
+.all-books-card-item {
+    transform: scale(1.15);
+}
+.all-books-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-content: center;
+}

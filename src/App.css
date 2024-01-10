@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
+*, *::after, *::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app-component {
+  width: 100vw;
+  height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.this-container {
+  height: 100%; 
+  width: 1300px !important;
+  max-width: 1300px !important;
+  /* max-width: 1200px !important; */
+  margin: 0 auto !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ul {
+  list-style: none;
 }
 
-.App-link {
-  color: #61dafb;
+body::-webkit-scrollbar {
+  width: 0;
+}
+.card-list {
+  /* height: 300px; */
+  padding: 20px 0;
+  overflow: hidden;
+}
+.card-item {
+  border: 1px solid var(--gray-ultra-light);
+  height: 300px;
+  min-width: 230px;
+  max-width: 230px;
+  border-radius: 6px;
+  padding: 18px 40px;
+  overflow: hidden;
+}
+.card-item:hover {
+  border-color: var(--primary);
+}
+.card-item:active {
+  transform: scale(1.08);
+  transition: transform ease 0.1s;
+}
+.card-item-cta {
+  font-size: 1rem;
+  padding: 0;
+}
+.card-item-thumbnail {
+  width: 150px !important;
+  height: 200px;
+  margin-bottom: 8px;
+}
+.card-item-title {
+  width: 150px;
+  color: var(--gray-light);
+  align-self: flex-start;
+  text-align: start;
+  text-wrap: nowrap;
+  overflow: hidden;
+}
+.card-item:hover .card-item-title {
+  color: var(--primary);
+}
+.card-item-price {
+  font-size: 1.2rem;
+}
+.card-item-original-price {
+  font-size: 1rem;
+  margin: 0 6px;
+  text-decoration: line-through;
+}
+.alert-pop-up {
+  display: inline;
+  position: fixed;
+  top: 100px;
+  right: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media only screen and (max-width: 821px) { 
+
+}
+@media only screen and (max-width: 421px) { 
+
 }

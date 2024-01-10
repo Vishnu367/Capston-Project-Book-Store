@@ -1,0 +1,46 @@
+#nav-bar-1 .this-nav-link, #nav-bar-1 .this-nav-dropdown {
+    color: var(--gray-light);
+}
+#nav-bar-1 .this-nav-link:hover, #nav-bar-1 .this-nav-dropdown:hover {
+    color: black;
+}
+nav {
+    padding: 5px 0;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    background-color: white;
+}
+nav .this-nav-link {
+    margin-left: 10px;
+}
+#nav-bar-2 {
+    background-image: url('../../images/poneglyph-lost-zoro.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#nav-bar-2 .this-nav-link, #nav-bar-2 .this-nav-dropdown {
+    color: var(--gray-ultra-light);
+}
+#nav-bar-2 .this-nav-link:hover, #nav-bar-2 .this-nav-dropdown:hover {
+    color: white;
+}
+#nav-dropdown {
+    color: black !important;
+}
+nav button {
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.nav-cart-user {
+    font-size: 1.2rem !important;
+    line-height: 1.5;
+}
+.nav-cart-user li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem !important;
+}
+

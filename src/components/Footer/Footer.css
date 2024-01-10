@@ -1,0 +1,27 @@
+
+.footer-container {
+    display: block;
+    width: 100%;
+    min-height: 200px;
+    padding: 40px 20px;
+}
+.footer-links-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+}
+.footer-links-container ul li {
+    margin-bottom: 12px;
+}
+.footer-link {
+    color: var(--gray-ultra-light);
+    text-decoration: none;
+    cursor: pointer;
+}
+.footer-links-container ul li a:hover {
+    color: white;
+}
+.footer-alert {
+    position: fixed;
+    top: 100px;
+    right: 25px;
+}
