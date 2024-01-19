@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Capston-Project-Book-Store/static/css/main.0f4f60e9.css",
+    "main.js": "/Capston-Project-Book-Store/static/js/main.f48ef024.js",
+    "static/js/787.e55ffa1c.chunk.js": "/Capston-Project-Book-Store/static/js/787.e55ffa1c.chunk.js",
+    "static/media/poneglyph-lost-zoro.jpg": "/Capston-Project-Book-Store/static/media/poneglyph-lost-zoro.23b8275a82cebf2ac5a1.jpg",
+    "static/media/ohara.jpg": "/Capston-Project-Book-Store/static/media/ohara.d8449255c67b0624812a.jpg",
+    "index.html": "/Capston-Project-Book-Store/index.html",
+    "main.0f4f60e9.css.map": "/Capston-Project-Book-Store/static/css/main.0f4f60e9.css.map",
+    "main.f48ef024.js.map": "/Capston-Project-Book-Store/static/js/main.f48ef024.js.map",
+    "787.e55ffa1c.chunk.js.map": "/Capston-Project-Book-Store/static/js/787.e55ffa1c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f4f60e9.css",
+    "static/js/main.f48ef024.js"
+  ]
+}
