@@ -19,7 +19,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <Provider store={bookStore} >
-    <BrowserRouter basename='/Capston-Project-Book-Store'>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <App />
     </BrowserRouter>
   </Provider>
