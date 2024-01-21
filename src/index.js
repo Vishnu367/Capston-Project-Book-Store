@@ -19,7 +19,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <Provider store={bookStore} >
-    <BrowserRouter>
+    <BrowserRouter basename='/Capston-Project-Book-Store'>
       <App />
     </BrowserRouter>
   </Provider>

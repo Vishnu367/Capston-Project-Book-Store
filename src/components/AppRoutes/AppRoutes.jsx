@@ -27,8 +27,7 @@ const AppRoutes = () => {
     <div>
         <AppLayout>
             <Routes>
-                <Route path='/bookStore/*'/>
-                <Route index element={<HomePage />} />
+                <Route exact path='/Capston-Project-Book-Store' element={<HomePage />} />
                 <Route path='allBooks/:id' element={<AllBooks/>} />
                 <Route path='/allBooks/:id/product/:id' element={<Product />} />
                 <Route path='/categories' element={<CategoriesPage />} />
