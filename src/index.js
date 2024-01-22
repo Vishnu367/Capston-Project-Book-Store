@@ -19,7 +19,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <Provider store={bookStore} >
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter basename='/ohara-book-store'>
       <App />
     </BrowserRouter>
   </Provider>
